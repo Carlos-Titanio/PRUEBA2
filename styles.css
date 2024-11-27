@@ -1,0 +1,38 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif; /* Fuente para todo el texto */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo suave */
+}
+
+/* Contenedor principal de la cuadrícula */
+.container {
+    display: grid; /* Usamos el sistema de cuadrícula de CSS */
+    grid-template-columns: repeat(3, 1fr); /* 4 columnas de igual tamaño */
+    gap: 20px; /* Espacio entre los elementos */
+    padding: 20px; /* Espacio interno del contenedor */
+}
+
+/* Estilos para cada elemento de la cuadrícula */
+.item {
+    background-color: #fff; /* Fondo blanco para cada celda */
+    border: 1px solid #ddd; /* Borde suave para cada celda */
+    padding: 20px; /* Espacio interno dentro de cada celda */
+    text-align: center; /* Centra el texto */
+}
+
+/* Imagen dentro de las celdas (si las tienes) */
+.item img {
+    max-width: 100%; /* Hace que la imagen se ajuste al tamaño de la celda */
+    height: auto; /* Mantiene las proporciones de la imagen */
+}
+h1 {
+    font-size: 32px; /* Título grande */
+    color: #333; /* Color oscuro para el texto */
+}
+
+p {
+    font-size: 16px; /* Texto más pequeño */
+    color: #666; /* Color gris para el texto */
+}
